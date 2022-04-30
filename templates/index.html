@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Classificador Huamno ou Cavalo</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    </head>
+
+    <body>
+        <h1 class="text-center">Classificador Humano ou Cavalo</h1>
+        <p>Escolha uma imagem para prever se é um humano ou um cavalo</p>
+
+        <form class="p-3 text-center" action="/", method="post" enctype="multipart/form-data">
+            <input class="form-control" type="file" name='imagefile'>
+            <br> <input  class="btn btn-primary mt-3" type="submit" value="Predict Image">
+        </form>
+
+        <p style="font-size: large;">RESULTADO:</p>
+
+        {% if prediction %}
+            <p class="text-center"> Essa imagem: {{prediction}}</p>
+        {% endif %}
+    </body>
+</html>
