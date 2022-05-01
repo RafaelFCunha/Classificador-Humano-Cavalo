@@ -28,7 +28,7 @@ e aguarde a compilação do projeto em um webservice local, após ter carregado 
 
 ATENÇÃO: Para rodar o projeto é necessário ter instalado em sua máquina python e algumas bibliotecas de uso para machine learning.
 
-# Refêrencias utilziadas
+# Refêrencias utilizadas
 
 https://developers.google.com/codelabs/tensorflow-5-compleximages#0
 
