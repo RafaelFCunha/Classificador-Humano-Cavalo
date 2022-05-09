@@ -8,15 +8,6 @@ TURMA: 2TDSA
 Rafael Fernandes Cunha		
 RM: 88687
 
-Carlos Daniel Silveira do nascimento				
-RM: 88439
-
-Natasha Miyahara Martins	
-RM: 89183
-
-Kevin Aguiar dos Santos		
-RM: 87268
-
 # COMO USAR
 
 Para acesso completo ao código do modelo de machine learning, você pode acessar a pasta notebooks e carregar o arquivo .ipynb em seu ambiente de trabalho favorito.
